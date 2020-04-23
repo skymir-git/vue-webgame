@@ -14,8 +14,8 @@
 </template>
 
 <script>
-    import {mapState} from "vuex";
-    import {CODE, FLAG_CELL, NORMALIZE_CELL, OPEN_CELL, QUESTION_CELL, CLICK_MINE} from "./store";
+    import { mapState } from "vuex";
+    import { CODE, FLAG_CELL, NORMALIZE_CELL, OPEN_CELL, QUESTION_CELL, CLICK_MINE } from "./store";
 
     export default {
         computed: {

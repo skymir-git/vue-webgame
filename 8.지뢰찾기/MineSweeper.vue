@@ -8,8 +8,8 @@
 </template>
 
 <script>
-    import {mapState} from 'vuex';
-    import store, {INCREMENT_TIMER} from "./store";
+    import { mapState } from 'vuex';
+    import store, { INCREMENT_TIMER } from "./store";
     import TableComponent from "./TableComponent";
     import MineForm from "./MineForm";
 
@@ -23,9 +23,6 @@
         },
         computed: {
             ...mapState(['timer', 'result', 'halted']),
-        },
-        methods: {
-
         },
         watch: {
           halted(value, oldValue) {

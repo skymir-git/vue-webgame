@@ -8,14 +8,14 @@
 </template>
 
 <script>
-    import {START_GAME} from "./store";
+    import { START_GAME } from "./store";
 
     export default {
         data() {
             return {
                 row: 10,
                 cell: 10,
-                mine: 20,
+                mine: 10,
             }
         },
         methods: {

@@ -173,8 +173,5 @@ export default new Vuex.Store({ // import store from './store';
         [INCREMENT_TIMER](state) {
             state.timer += 1;
         },
-    }, // state를 수정할때 사용. 동기적으로
-    getters: {
-
     },
 })
